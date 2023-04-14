@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --pink:  #f3d9c9;
+    --nude-pink: #e9bb9e;
+    --light-nude-pink:  #d09a78;
+    --brown:  #985443 ;
+    --black: #413e3d;
+    --gray: #9c9798;
+    --white:  #fbfafa;
+    --orange:  #f3792d;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    color: var(--black);
+    font-family: 'Heebo', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/*-------NAV-BAR------------*/
+
+.nav-bar{
+    align-items: center;
+    background-color: var(--nude-pink);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 7rem;
+}
+
+.nav-bar__logo{
+    font-size: 2.5rem;
+}
+
+.nav-bar__menu-hamburguer{
+    background-color: var(--white);
+    position: absolute;
+    right: 0;
+    top: 7rem;
+    margin-right: 1rem;
+    padding: 2rem;
+    display: none;
+}
+
+.nav-bar__menu-hamburguer li{
+    margin-bottom: 2.1rem;
+}
+
+.nav-bar__menu-hamburguer li a{
+    color: var(--black);
+    font-weight: 500;
+}
