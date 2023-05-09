@@ -53,8 +53,10 @@ ul{
     position: absolute;
     right: 0;
     top: 7rem;
-    margin-right: 1rem;
     padding: 2rem;
+}
+
+.inactive{
     display: none;
 }
 
